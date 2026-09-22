@@ -1,9 +1,9 @@
 # Atividade - Aula 05: Alarme Automotivo
 
-## Resumo da Solucao
-- Regra 1 (Alerta de Bateria): Far�is acesos (C=1) e igni��o desligada (B=0) -> Coverline(B)
-- Regra 2 (Alerta de Seguran�a): Porta aberta (A=1) e igni��o ligada (B=1) -> A * B
+## Resumo da Solução
+- **Regra 1 (Alerta de Bateria):** Faróis acesos ($C = 1$) e ignição desligada ($B = 0$) $\rightarrow \bar{B} \cdot C$
+- **Regra 2 (Alerta de Segurança):** Porta aberta ($A = 1$) e ignição ligada ($B = 1$) $\rightarrow A \cdot B$
 
-## Expressao Final e Minitermos
-- Expressao da Saida S: S = not(A)*not(B)*C + A*not(B)*C + A*B*not(C) + A*B*C
-- Minitermos (Soma de Produtos): sum(m1, m5, m6, m7)
+## Expressão Final e Minitermos
+- **Expressão da Saída S:** $S = \bar{A}\bar{B}C + A\bar{B}C + AB\bar{C} + ABC$
+- **Minitermos (Soma de Produtos):** $\sum m(1, 5, 6, 7)$
